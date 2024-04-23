@@ -75,7 +75,7 @@ export default function Home() {
               💼 LinkedIn Profile
             </a>
             <a
-              href="mailto:juliejakinovich@gmail.com"
+              href="mailto:jjakino1@hfhs.org"
               className="block w-full bg-blue-200 text-center py-3 rounded-lg text-lg font-semibold text-blue-900 hover:bg-blue-100 transition-colors"
             >
               ✉️ Email
