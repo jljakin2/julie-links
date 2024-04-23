@@ -53,14 +53,14 @@ export default function Home() {
       <div className="bg-white p-10 rounded-lg shadow-lg max-w-sm w-full">
         <div className="flex flex-col items-center">
           <Image
-            src="https://picsum.photos/200" // Add your profile image in public folder
+            src="/Julie_LinkedIn_pic.png"
             width={200}
             height={200}
             alt="Profile Picture"
             className="rounded-full w-24 h-24 mb-4"
           />
           <div className="flex flex-col text-center">
-            <h1 className="text-xl text-slate-800 font-semibold mb-1">
+            <h1 className="text-lg text-slate-800 font-semibold mb-1">
               Julie Jakinovich, MPH, CHES, CIC
             </h1>
             <h4 className="text-slate-500">Infection Prevention Specialist</h4>
