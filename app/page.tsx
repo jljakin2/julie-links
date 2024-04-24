@@ -67,7 +67,7 @@ export default function Home() {
           </div>
           <div className="space-y-4 w-full mt-6">
             <a
-              href="https://www.linkedin.com/in/julie-jakinovich-mph-ches-cic-6954b367/"
+              href=" www.linkedin.com/in/julie-jakinovich"
               target="_blank"
               rel="noreferrer"
               className="block w-full bg-blue-200 text-center py-3 rounded-lg text-lg font-semibold text-blue-900 hover:bg-blue-100 transition-colors"
