@@ -28,7 +28,7 @@ export default function Home() {
           </div>
           <div className="space-y-4 w-full mt-6">
             <a
-              href=" www.linkedin.com/in/julie-jakinovich"
+              href=" https://www.linkedin.com/in/julie-jakinovich"
               target="_blank"
               rel="noreferrer"
               className="block w-full border-2 border-blue-200 text-center py-3 rounded-lg text-lg font-semibold text-slate-800 hover:bg-blue-200 transition-colors"
