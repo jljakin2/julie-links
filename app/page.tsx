@@ -1,63 +1,24 @@
 import Image from "next/image";
 import { Metadata } from "next/types";
+import photo from "@/public/Julie_LinkedIn_pic.png";
 
 export const metadata: Metadata = {
-  title: "Julie Jakinovich | Infection Preventionist",
+  title: "Julie Jakinovich | Infection Prevention Specialist",
   description: "Digital business card for Julie Jakinovich",
 };
 
 export default function Home() {
   return (
-    // <div className="flex justify-center items-center min-h-screen bg-gray-100">
-    //   <div className="border-gray-300 border-8 shadow-lg rounded-xl max-w-sm w-full">
-    //     <div className="bg-white p-8 rounded-xl">
-    //       <div className="flex flex-col items-center">
-    //         <Image
-    //           src="https://picsum.photos/200" // Add your profile image in public folder
-    //           width={200}
-    //           height={200}
-    //           alt="Profile Picture"
-    //           className="rounded-full w-24 h-24 mb-4"
-    //         />
-    //         <h1 className="text-xl font-semibold mb-2">Julie Jakinovich</h1>
-    //         <p className="text-gray-600 text-sm mb-4">
-    //           Infection Preventionist
-    //         </p>
-    //         <div className="w-full">
-    //           {/* List of Links */}
-    //           <a
-    //             href="https://example.com"
-    //             className="text-blue-500 hover:text-blue-700 font-semibold block mb-2"
-    //           >
-    //             Link 1
-    //           </a>
-    //           <a
-    //             href="https://example.com"
-    //             className="text-blue-500 hover:text-blue-700 font-semibold block mb-2"
-    //           >
-    //             Link 2
-    //           </a>
-    //           <a
-    //             href="https://example.com"
-    //             className="text-blue-500 hover:text-blue-700 font-semibold block mb-2"
-    //           >
-    //             Link 3
-    //           </a>
-    //           {/* Add more links as needed */}
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
     <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-cyan-500 to-blue-500">
       <div className="bg-white p-10 rounded-lg shadow-lg max-w-sm w-full">
         <div className="flex flex-col items-center">
           <Image
-            src="/Julie_LinkedIn_pic.png"
+            src={photo}
             width={200}
             height={200}
             alt="Profile Picture"
             className="rounded-full w-24 h-24 mb-4"
+            placeholder="blur"
           />
           <div className="flex flex-col text-center">
             <h1 className="text-lg text-slate-800 font-semibold mb-1">
@@ -70,21 +31,21 @@ export default function Home() {
               href=" www.linkedin.com/in/julie-jakinovich"
               target="_blank"
               rel="noreferrer"
-              className="block w-full bg-blue-200 text-center py-3 rounded-lg text-lg font-semibold text-blue-900 hover:bg-blue-100 transition-colors"
+              className="block w-full border-2 border-blue-200 text-center py-3 rounded-lg text-lg font-semibold text-slate-800 hover:bg-blue-200 transition-colors"
             >
-              💼 LinkedIn Profile
+              <span className="mr-2">💼</span> LinkedIn Profile
             </a>
             <a
               href="mailto:jjakino1@hfhs.org"
-              className="block w-full bg-blue-200 text-center py-3 rounded-lg text-lg font-semibold text-blue-900 hover:bg-blue-100 transition-colors"
+              className="block w-full border-2 border-blue-200 text-center py-3 rounded-lg text-lg font-semibold text-slate-800 hover:bg-blue-200 transition-colors"
             >
-              ✉️ Email
+              <span className="mr-2">✉️</span> Email
             </a>
             <a
               href="tel:+13135858164"
-              className="block w-full bg-blue-200 text-center py-3 rounded-lg text-lg font-semibold text-blue-900 hover:bg-blue-100 transition-colors"
+              className="block w-full border-2 border-blue-200 text-center py-3 rounded-lg text-lg font-semibold text-slate-800 hover:bg-blue-200 transition-colors"
             >
-              📱 Cell Phone
+              <span className="mr-2">📱</span> Cell Phone
             </a>
             {/* <a
               href="https://example.com"
