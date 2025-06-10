@@ -42,7 +42,7 @@ export default function Home() {
               <span className="mr-2">✉️</span> Email
             </a>
             <a
-              href="tel:+13135858164"
+              href="tel:+2486131603"
               className="block w-full border-2 border-blue-200 text-center py-3 rounded-lg text-lg font-semibold text-slate-800 hover:bg-blue-200 transition-colors"
             >
               <span className="mr-2">📱</span> Cell Phone
